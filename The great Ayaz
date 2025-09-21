@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ayaz Contact Banner</title>
+  <style>
+    body {
+      margin: 0;
+      background: #121212;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .banner {
+      background: linear-gradient(135deg, #4b6cb7, #182848);
+      border-radius: 14px;
+      padding: 40px;
+      max-width: 600px;
+      width: 100%;
+      box-shadow: 0 8px 24px rgba(75, 108, 183, 0.6);
+      text-align: center;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.3em;
+      letter-spacing: 2px;
+    }
+    h2 {
+      font-weight: 400;
+      font-size: 1.3rem;
+      margin-bottom: 1.2em;
+      color: #cfd8dc;
+    }
+    .contact-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 auto;
+      max-width: 360px;
+    }
+    .contact-list li {
+      margin: 12px 0;
+      font-size: 1.1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .contact-list a {
+      color: #e4405f;
+      text-decoration: none;
+      margin-left: 10px;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    .contact-list a:hover,
+    .contact-list a:focus {
+      color: #ff7f50;
+      outline: none;
+    }
+    .icon {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      fill: #e4405f;
+    }
+    .muslim-symbol {
+      margin-top: 30px;
+      font-size: 2.5rem;
+      color: #ffd700;
+      user-select: none;
+    }
+    @media (max-width: 480px) {
+      .banner {
+        padding: 30px 20px;
+      }
+      h1 {
+        font-size: 2.2rem;
+      }
+      .contact-list {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="banner" role="banner" aria-label="Ayaz contact banner with social media and email">
+    <h1>Ayaz</h1>
+    <h2>Hacker | App Developer | Copyright Expert</h2>
+    <ul class="contact-list" aria-label="Social media and contact information">
+      <li>
+        <!-- Instagram Icon SVG -->
+        <svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 2A3.75 3.75 0 004 7.75v8.5A3.75 3.75 0 007.75 20h8.5a3.75 3.75 0 003.75-3.75v-8.5A3.75 3.75 0 0016.25 4h-8.5zm8.25 2.5a1 1 0 110 2 1 1 0 010-2zm-4.25 1a4.5 4.5 0 110 9 4.5 4.5 0 010-9zm0 2a2.5 2.5 0 100 5 2.5 2.5 0 000-5z"/></svg>
+        <a href="https://www.instagram.com/maybe.ayazz" target="_blank" rel="noopener noreferrer" aria-label="Instagram maybe.ayazz">@maybe.ayazz</a>
+      </li>
+      <li>
+        <svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.48 2 12s4.477 10 10 10c5.52 0 10-4.48 10-10S17.52 2 12 2zm3.548 7.248l-1.82 8.282a.75.75 0 01-1.141.424l-2.74-2.02-1.323 1.273a.75.75 0 01-1.196-.22l-2.567-4.9a.75.75 0 01.759-1.08l8.064 1.846a.75.75 0 01.664.195zm-7.552-1.1L9.897 14.97l.004.005a.75.75 0 001.381-.264l.866-3.939-2.65-2.514z"/></svg>
+        <a href="https://t.me/ayazgotcursed" target="_blank" rel="noopener noreferrer" aria-label="Telegram ayazgotcursed">@ayazgotcursed</a>
+      </li>
+      <li>
+        <svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12c0 2.266.785 4.355 2.076 6.015l-.004.004a1.5 1.5 0 00.835 2.578c.94 0 1.7-.997 1.283-1.85a8.235 8.235 0 01-.77-2.06c-.2-.977-.246-1.838-.246-2.69 0-3.523 3.047-6.312 6.79-6.312 3.386 0 6.732 2.23 6.732 6.059 0 1.425-.618 2.974-1.7 3.942-.148.164-.04.274.086.17a9.463 9.463 0 012.93-1.98.806.806 0 00.34-1.118 7.204 7.204 0 00-1.88-2.03c.526-4.07-2.98-7.58-7.77-7.58z"/></svg>
+        <a href="mailto:teamdictatorremoval@aol.com" aria-label="Email teamdictatorremoval at aol dot com">teamdictatorremoval@aol.com</a>
+      </li>
+      <li>
+        <svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12c0 2.266.785 4.355 2.076 6.015l-.004.004a1.5 1.5 0 00.835 2.578c.94 0 1.7-.997 1.283-1.85a8.235 8.235 0 01-.77-2.06c-.2-.977-.246-1.838-.246-2.69 0-3.523 3.047-6.312 6.79-6.312 3.386 0 6.732 2.23 6.732 6.059 0 1.425-.618 2.974-1.7 3.942-.148.164-.04.274.086.17a9.463 9.463 0 012.93-1.98.806.806 0 00.34-1.118 7.204 7.204 0 00-1.88-2.03c.526-4.07-2.98-7.58-7.77-7.58z"/></svg>
+        <a href="mailto:cprbyayaz@gmail.com" aria-label="Email cprbyayaz at gmail dot com">cprbyayaz@gmail.com</a>
+      </li>
+      <li>
+        <svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12c0 2.266.785 4.355 2.076 6.015l-.004.004a1.5 1.5 0 00.835 2.578c.94 0 1.7-.997 1.283-1.85a8.235 8.235 0 01-.77-2.06c-.2-.977-.246-1.838-.246-2.69 0-3.523 3.047-6.312 6.79-6.312 3.386 0 6.732 2.23 6.732 6.059 0 1.425-.618 2.974-1.7 3.942-.148.164-.04.274.086.17a9.463 9.463 0 012.93-1.98.806.806 0 00.34-1.118 7.204 7.204 0 00-1.88-2.03c.526-4.07-2.98-7.58-7.77-7.58z"/></svg>
+        <a href="mailto:cprjoddictators@outlook.com" aria-label="Email cprjoddictators at outlook dot com">cprjoddictators@outlook.com</a>
+      </li>
+      <li>
+        <svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 4a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm1.933 11h-3.866c-.694 0-1.068-.47-.898-1.17l.779-3.207.033-.139a1 1 0 111.95.46l-.033.163-.455 1.862h1.548l.456-1.862a1 1 0 111.952-.46l-.03.128.78 3.212c.17.7-.2 1.172-.88 1.171z"/></svg>
+        <span style="margin-left: 10px; font-weight: 600; color: #ffffff;">Instagram:</span>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/soloayaz" target="_blank" rel="noopener noreferrer">@soloayaz</a>
+      </li>
+      <li>
+        <svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.48 2 12c0 5.52 4.48 10 10 10 5.52 0 10-4.48 10-10 0-5.52-4.48-10-10-10zm-1.435 14.852l-3.13-3.11a.75.75 0 01.05-1.115l9.8-7.51a.75.75 0 011.212.727L17.3 15.94a.75.75 0 01-1.145.494l-2.83-2.494-1.626 1.913z"/></svg>
+        <span style="margin-left: 10px; font-weight: 600; color: #ffffff;">Telegram:</span>
+      </li>
+      <li>
+        <a href="https://t.me/soloxayaz" target="_blank" rel="noopener noreferrer">@soloxayaz</a>
+      </li>
+    </ul>
+    <div class="muslim-symbol" aria-label="Muslim symbol">&#x262A;</div>
+  </div>
+</body>
+</html>
